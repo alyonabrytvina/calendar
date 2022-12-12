@@ -8,6 +8,7 @@
 }
 
 :root {
+  /* Colors */
   --main-bg-color: #3D444E;
   --secondary-bg-color: #1E242F;
 
@@ -16,9 +17,7 @@
 
   --dark-blue-500: #8F7FFF26;
 
-  --border-radius-default: 7px;
-
-  /* font family */
+  /* font family sizes*/
   --fontSize-50: 0.6875rem; /* 11px */
   --fontSize-75: 0.75rem; /* 12px */
   --fontSize-100: 0.875rem; /* 14px */
@@ -34,4 +33,13 @@
   --fontSize-1000: 2.5rem; /* 40px */
   --fontSize-1100: 3rem; /* 48px */
   --fontSize-1200: 3.5rem; /* 56px */
+
+  /* Font families */
+  --font-family-default: 'Montserrat', sans-serif;
+  --font-family-titles: 'MontserratMedium', sans-serif;
+  --font-family-montserrat-bold: 'MontserratBold', sans-serif;
+  --font-family-montserrat-light: 'MontserratLight', sans-serif;
+
+  /* Border */
+  --border-radius-default: 7px;
 }
